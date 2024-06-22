@@ -1,0 +1,508 @@
+hr{
+height: 0.5rem;
+border: none;
+background-color: rgba(128, 128, 128, 0.396);
+}
+
+.home-background{
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+background: linear-gradient(180deg, rgb(0,0,0, 0.9), rgb(0,0,0, 0.6), rgb(0,0,0,0.6), rgb(0,0,0,0.9)), url("file:///C:/Users/aravi/Downloads/Netflix%20India%20%E2%80%93%20Watch%20TV%20Shows%20Online,%20Watch%20Movies%20Online_files/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+}
+
+.header{
+padding-top: 1rem;
+display: flex;
+justify-content: space-between;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+
+.header-buttons{
+padding-right: 5rem;
+display: flex;
+padding-left: 2rem;
+}
+
+.header img{
+padding-left: 5rem;
+padding-right: 5rem;
+height: 80px;
+width: auto;
+}
+
+
+.header-buttons select{
+padding-left: 2.25rem;
+padding-right: 1.25rem;
+line-height: 1.25rem;
+height: 30px;
+margin-top: 1.5rem;
+background-color: transparent;
+color: white;
+font-size: 0.875rem;
+font-weight: 500;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.header-buttons option{
+color: black;
+
+}
+
+.lang{
+position: absolute;
+padding-top: 2rem;
+padding-left: 0.75rem;
+color: white;
+}
+
+.footer-buttons .lang{
+padding-top: 1.5rem;
+}
+
+
+.header-buttons input{
+height: 30px;
+text-align: center;
+cursor: pointer;
+margin-top: 1.5rem;
+margin-left: 20px;
+padding-left: 1rem;
+padding-right: 1rem;
+background-color: red;
+border-radius: 5px;
+border: none;
+color: white;
+font-weight: 500;
+font-size: 0.875rem;
+transition: 0.25s;
+}
+
+.header-buttons input:hover{
+background-color: rgb(170, 0, 0);
+}
+
+.home-body{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: auto;
+}
+
+.home-body h1{
+font-size: 3rem;
+font-weight: 900;
+}
+
+.home-body p{
+font-size: 1.5rem;
+font-weight: 400;
+margin: 1rem 0 0 0;
+}
+
+.home-body h3{
+font-size: 1.25rem;
+font-weight: 400;
+margin: 1rem 0 0 0;
+}
+
+.home-body-register{
+display: flex;
+height: 3rem;
+margin: 1rem 0 0 0;
+justify-content: center;
+}
+
+.home-body-register-input{
+display: flex;
+margin-right: 0.5rem;
+}
+
+.home-body-register-input input[type=text]{
+color: white;
+background: rgba(0, 0, 0, 0.425);
+border: 1px solid rgba(255, 255, 255, 0.511);
+padding: 1.5rem 1rem 1rem 1rem;
+min-width: 12.5rem;
+width: 20rem;
+border-radius: 3px;
+height: 16px;
+font-size: 1rem;
+}
+
+.home-body-register-input input[type=text]:focus{
+color: white;
+}
+
+.placeholder1{
+position: absolute;
+margin: 1rem 0 0 0;
+padding: 0  0 0 1rem;
+font-size: 1rem;
+color: rgba(255, 255, 255, 0.7);
+transition: 0.25s;
+}
+
+.home-body-register-input input[type=text]:focus + .placeholder1{
+margin: 0.5rem 0 0 0;
+padding: 0 0 0 0.5rem;
+font-size: 0.8rem;
+}
+
+.home-body-register-button{
+display: flex;
+}
+
+.home-body-register-button input[type=button]{
+width: 12rem;
+background-color: red;
+color: white;
+font-size: 1.5rem;
+font-weight: 400;
+border: none;
+border-radius: 3px;
+height: 3.5rem;
+cursor: pointer;
+transition: 0.25s;
+}
+
+.home-body-register-button input[type=button]:hover{
+background-color: rgb(170, 0, 0);
+}
+
+.home-body-register-button span{
+position: absolute;
+font-size: 1.5rem;
+padding-left: 10rem;
+padding-top: 1rem;
+font-weight: lighter;
+cursor: pointer;
+pointer-events: none;
+}
+
+.container-1{
+display: flex;
+justify-content: center;
+padding: 5rem;
+}
+
+.container-details-1{
+color: white;
+font-family: sans-serif;
+display: flex;
+text-align: left;
+flex-direction: column;
+justify-content:center;
+padding-left: 10rem;
+margin-right: 30px;
+}
+
+.container-details-1 h1{
+font-size: 3rem;
+font-weight: 900;
+}
+
+.container-details-1 p{
+font-size: 1.5rem;
+}
+
+.vid1{
+display: flex;
+position: relative;
+}
+
+.vid1 img{
+position: absolute;
+height: 25rem;
+width: auto;
+}
+
+.vid1 video{
+position: relative;
+margin: 4.1rem;
+padding-top: 1rem;
+padding-left: 0.1rem;
+height: 13.9rem;
+width: auto;
+object-fit: contain;
+}
+
+.container-2{
+display: flex;
+padding-left: 2rem;
+margin-right: 10rem;
+}
+
+
+.container-details-2{
+color: white;
+font-family: sans-serif;
+display: flex;
+text-align: left;
+flex-direction: column;
+justify-content:center;
+margin-right: 30px;
+}
+
+.container-details-2 h1{
+font-size: 3rem;
+font-weight: 900;
+}
+
+.container-details-2 p{
+margin-top: 1rem;
+line-height: 2rem;
+font-size: 1.5rem;
+}
+
+.vid2{
+display: flex;
+flex-direction: column;
+}
+
+.vid2 img{
+height: 27rem;
+padding-left:5rem;
+margin-top: 30px;
+}
+
+.img-img{
+position: absolute;
+background-color: black;
+height: 6rem;
+width: 20rem;
+border: 2px solid gray;
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+margin: 20rem  0 0 13rem ;
+color: white;
+}
+
+.img-img .img1{
+height: 5rem;
+margin-top: 5px;
+padding-left: 1rem;
+}
+
+.img-img .img2{
+padding-left: 2rem;
+padding-top: 1.5rem;
+margin: 0;
+height: 3rem;
+}
+
+
+.img-t{
+display: flex;
+flex-direction: column;
+color: white;
+text-align: left;
+margin-top: 1.5rem;
+padding-left: 2rem;
+font-family: sans-serif;
+}
+
+p.img-t{
+color: white;
+}
+
+p.img-t2{
+margin: 0;
+padding-top: 0.5rem;
+color: #0071eb;
+font-size: 0.8rem;
+}
+
+.container3{
+display: flex;
+justify-content: center;
+padding: 5rem;
+}
+
+.vid3{
+display: flex;
+position: relative;
+}
+
+.vid3 img{
+
+position: absolute;
+height: 25rem;
+width: auto;
+}
+
+.vid3 video{
+position: relative;
+margin: 4.1rem;
+padding-left: 2rem;
+height: 12rem;
+width: auto;
+object-fit: contain;
+}
+
+.container-4{
+display: flex;
+padding-top: 5rem;
+padding-left: 6rem;
+padding-bottom: 5rem;
+padding-right: 6rem;
+}
+
+img.vid4{
+height: 30rem;
+}
+
+.container-5{
+display: flex;
+flex-direction: column;
+color: white;
+font-family: sans-serif;
+}
+
+.container-5 h1{
+padding: 2rem;
+padding-bottom: 1rem;
+font-size: 3rem;
+font-weight: 900;
+}
+
+.questions{
+display: flex;
+flex-direction: column;
+margin: 2rem;
+margin-top: 0;
+}
+
+.question{
+font-size: 1.5rem;
+display: flex;
+height: 2rem;
+background-color: rgba(255, 255, 255, 0.2);
+margin-top: 0.3rem;
+margin-left: 10rem;
+margin-right: 10rem;
+align-items: center;
+justify-content: space-between;
+padding: 1.5rem;
+cursor: pointer;
+transition: 0.25s;
+}
+
+.question:hover{
+background-color: rgb(255, 255, 255, 0.3);
+}
+
+.add{
+position: relative;
+padding: 0;
+margin: 0;
+font-size: 2rem;
+font-weight: lighter;
+}
+
+
+.question-answer{
+font-size: 1.5rem;
+display: flex;
+flex-direction: column;
+height: auto;
+background-color: rgba(255, 255, 255, 0.2);
+margin-top: 0.1rem;
+margin-left: 10rem;
+margin-right: 10rem;
+text-align: left;
+padding: 1.5rem;
+cursor: pointer;
+}
+
+.para1{
+padding-bottom: 2rem;
+}
+
+
+.close{
+display: none;
+}
+
+
+.freq-ques{
+display: flex;
+flex-direction: column;
+margin: 2rem;
+}
+
+h3{
+font-size: 1.2rem;
+font-weight: 100;
+}
+
+.freq-ques-sign{
+display: flex;
+flex-direction: row;
+margin-top: 2rem;
+justify-content: center;
+}
+
+.cont-footer{
+font-weight: 400;
+font-size: 14px;
+display: flex;
+color: rgba(255, 255, 255, 0.7);
+flex-direction: column;
+height: auto;
+font-family: sans-serif;
+text-align: left;
+padding:4rem;
+padding-left: 12rem;
+}
+
+.tags-all{
+display: flex;
+flex-direction: row;
+}
+
+.tags{
+line-height: 2.5rem;
+width: 25%;
+display: flex;
+text-align: left;
+}
+
+.footer-buttons select{
+margin-top: 1rem;
+color: white;
+width: 8rem;
+font-weight: 400;
+padding-left: 2rem;
+background-color: transparent;
+height: 2rem;
+font-size: 1rem;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.footer-buttons option{
+color: black;
+}
+
+a{
+cursor: pointer;
+text-decoration: underline;
+}
+
+ul{
+list-style: none;
+}
+
+.foot-cp{
+padding-top: 2rem;
+margin: 0;
+}

@@ -1,0 +1,264 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgb(0,0,0, 0.6), rgb(0,0,0,0.6)), url("file:///C:/Users/aravi/Downloads/Netflix%20India%20%E2%80%93%20Watch%20TV%20Shows%20Online,%20Watch%20Movies%20Online_files/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.container1{
+    background-color: rgb(0,0,0, 0.6);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 300px;
+    color: white;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.container1 h2{
+    padding: 2rem 0;
+    text-align: left;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.user-input{
+    display: flex;
+    margin: 10px 0;
+}
+
+.user-input input{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    height: 3rem;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    padding-left: 0.75rem;
+    padding-top: 0.25rem;
+}
+
+.placeholder{
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    padding-left: 0.75rem;
+    color: rgb(255, 255, 255, 0.5);
+    transition: 0.25s;
+}
+
+.user-input input:focus{
+    background-color: rgb(0,0,0,0.4);
+}
+
+
+.user-input input:focus + .placeholder{
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.signin-btn{
+    background-color: red;
+    border: none;
+    height: 2.5rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px 0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.signin-btn:hover{
+    background-color: rgb(170, 0, 0);
+}
+
+.or{
+    margin: 10px;
+    color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.signin-code-btn{
+    background-color: rgb(255, 255, 255, 0.2);
+    border: none;
+    height: 2.5rem;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    margin: 10px 0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.signin-code-btn:hover{
+    background-color: rgb(255, 255, 255, 0.15);
+}
+
+.forget{
+    margin: 5px 0;
+    transition: 0.25s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.forget:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.remember{
+    display: flex;
+    font-size: 1rem;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.remember input[type="checkbox"]{
+    position: relative;
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    color: black;
+    border: 1px solid white;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+    transition: 0.25s;
+}
+
+.remember input[type="checkbox"]:checked{
+    background-color: white;
+}
+
+.remember input[type="checkbox"]::before{
+    position: absolute;
+    content: '';
+    top: 1px;
+    left: 5px;
+    width: 4px;
+    height: 7px;
+    border: 1.5px solid transparent;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg);
+}
+
+.remember input[type="checkbox"]:checked::before{
+    border-color: black;
+}
+
+.new-signin{
+    margin: 20px 0;
+    font-size: 1rem;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.signup-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
+
+.learnup{
+    font-size: 0.75rem;
+    color: rgb(255, 255, 255, 0.5);
+    line-height: 1rem;
+}
+
+.learnmore{
+    color: rgb(62, 62, 216);
+    text-decoration: none;
+}
+
+.learnmore:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: black;
+    color: rgb(255, 255, 255, 0.5);
+    font-family: sans-serif;
+    margin: 10rem;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.ques{
+    margin: 10px 0;
+    display: flex;
+}
+
+.ques  a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.ques a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    line-height: 3rem;
+    text-decoration: underline;
+}
+
+.links p{
+    cursor: pointer;
+}
+
+.language{
+    display: flex;
+}
+
+.language select{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    width: 7.5rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+
+.lang-icon{
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    color: white;
+}
+
+.language option{
+    color: black;
+}
+
+.charges{
+    text-align: center;
+    margin: 5px 0;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+}
