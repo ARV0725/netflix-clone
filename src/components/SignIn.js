@@ -8,7 +8,7 @@ const SignIn = () => {
     <>
         <div className="main">
             <div className="header">
-                <img src="../assets/Netflix_Logo.png" alt="netflix" />
+                <img src="../netflix-clone/assets/Netflix_Logo.png" alt="netflix" />
             </div>
             <div className="container1">
                 <h2>Sign In</h2>

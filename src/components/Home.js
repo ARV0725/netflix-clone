@@ -19,7 +19,7 @@ const Home = () => {
     <>
         <div className="home-background">
             <div className="header">
-                <img src='..\assets\Netflix_Logo.png' alt='logo'/>
+                <img src='../netflix-clone/assets/Netflix_Logo.png' alt='logo'/>
                 <div className='header-buttons'>
                 <select>
                     <option>English</option>
@@ -45,21 +45,21 @@ const Home = () => {
                 <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
             </div>
             <div className='vid1'>
-                <video src='../Assets/tv1.m4v' autoPlay playsInline muted loop/>
-                <img src='../Assets/tv.png' className='vid1-1' />
+                <video src='../netflix-clone/Assets/tv1.m4v' autoPlay playsInline muted loop/>
+                <img src='../netflix-clone/Assets/tv.png' className='vid1-1' />
             </div>
         </div>
         <hr></hr>
         <div className="container-2">
             <div className="vid2">
-                <img src='../Assets/img1-1.jpg' />
+                <img src='../netflix-clone/Assets/img1-1.jpg' />
                 <div className='img-img'>
-                    <img className="img1" src='../Assets/img1-2.png'/>
+                    <img className="img1" src='../netflix-clone/Assets/img1-2.png'/>
                     <div className='img-t'>
                     <p className='img-t1'>Stranger Things</p>
                     <p className='img-t2'>Downloading...</p>
                     </div>
-                    <img className="img2" src='../Assets/download-icon.gif'/>
+                    <img className="img2" src='../netflix-clone/Assets/download-icon.gif'/>
                 </div>
             </div>
             <div className="container-details-2">
@@ -74,14 +74,14 @@ const Home = () => {
                 <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
             </div>
             <div className="vid3">
-                <video src='../Assets/tv4.m4v' autoPlay playsInline muted loop />
-                <img src='../Assets/tv2.png' />
+                <video src='../netflix-clone/Assets/tv4.m4v' autoPlay playsInline muted loop />
+                <img src='../netflix-clone/Assets/tv2.png' />
             </div>
         </div>
         <hr></hr>
         <div className="container-4">
             <div className="vid4">
-            <img src='../Assets/img4.png' />
+            <img src='../netflix-clone/Assets/img4.png' />
             </div>
             <div className="container-details-2">
                 <h1>Create profiles for kids</h1>

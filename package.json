@@ -1,6 +1,6 @@
 {
   "homepage": "https://arv0725.github.io/netflix-clone",
-  "name": "myapp2",
+  "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
